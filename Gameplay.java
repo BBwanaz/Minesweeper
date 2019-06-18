@@ -51,7 +51,7 @@ public class Gameplay {
 				xindex =Math.abs(rand.nextInt() % BUTTONNUM);       // Choose random indexes and add mines
 				yindex = Math.abs(rand.nextInt() % BUTTONNUM);
 				
-				if(GamePlay[xindex][yindex] == 0 ) { 
+				if(GamePlay[xindex][yindex] == EMPTYCELL ) { 
 				GamePlay[xindex][yindex] = MINECELL;
 				count++;
 				}		
